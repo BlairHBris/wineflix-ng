@@ -14,6 +14,9 @@ import { ShowScrollerComponent } from './components/show-scroller/show-scroller.
 import { InfoButtonComponent } from './components/info-button/info-button.component';
 import { PlayButtonComponent } from './components/play-button/play-button.component';
 import { ControlsComponent } from './components/controls/controls.component';
+import { DescriptionComponent } from './components/description/description.component';
+import { BackgroundImageComponent } from './components/background-image/background-image.component';
+import { FeaturedShowComponent } from './components/featured-show/featured-show.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { ControlsComponent } from './components/controls/controls.component';
     ShowScrollerComponent,
     InfoButtonComponent,
     PlayButtonComponent,
-    ControlsComponent
+    ControlsComponent,
+    DescriptionComponent,
+    BackgroundImageComponent,
+    FeaturedShowComponent
   ],
   imports: [
     BrowserModule,

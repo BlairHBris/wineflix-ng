@@ -15,7 +15,7 @@
 
 .category{margin-bottom:16px}
 
-.category h2{color:#fff;font-size:32px;font-weight:400;margin-bottom:20px}
+.category h2{color:#fff;font-size:32px;font-weight:400;margin-bottom:20px;margin-top: 75px;}
 
 .category ul{display:flex;flex-flow:row nowrap;overflow-x:auto}
 
@@ -25,9 +25,11 @@
 
 .secondary-action{background-color:hsla(0,0%,100%,.3);color:#e6e6e6}
 
-.controls li{display:inline;margin-right:12px}
+.controls li{display:inline;margin-right:12px;}
 
-.controls button{border-radius:4px;border:none;padding:12px 32px;font-weight:700;font-size:22px}.controls button span{display:inline-block;margin-left:20px}
+.controls button{border-radius:4px;border:none;padding:12px 32px;font-weight:700;font-size:22px}
+
+.controls button span{display:inline-block;margin-left:20px}
 
 .hero-content{margin-top:200px;margin-bottom:200px}
 
