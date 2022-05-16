@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Feature } from 'src/app/Feature';
+import { heroContent } from 'src/app/mock-feature';
 
 @Component({
   selector: 'app-description',
@@ -7,13 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DescriptionComponent implements OnInit {
 
+  feature: Feature = heroContent
+  
   constructor() { }
 
   ngOnInit(): void {
   }
-
-  header: string = 'His Royal Majesty is back.'
-
-  description: string = "America's most unhinged rooster is out of retirement, and this time? He's mad as hell. Experience the unapologetic flavor burst of Rex Goliath."
 
 }
