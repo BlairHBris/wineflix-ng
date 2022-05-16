@@ -1,7 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Wine } from 'src/app/Wines';
 
-
 @Component({
   selector: 'app-wine-item',
   templateUrl: './wine-item.component.html',

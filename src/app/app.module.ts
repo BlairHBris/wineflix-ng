@@ -8,6 +8,8 @@ import { NavigationLinksComponent } from './components/navigation-links/navigati
 import { DrinkAgainWinesComponent } from './components/drink-again-wines/drink-again-wines.component';
 import { SecondaryNavigationComponent } from './components/secondary-navigation/secondary-navigation.component';
 import { WineItemComponent } from './components/wine-item/wine-item.component';
+import { KeepDrinkingWinesComponent } from './components/keep-drinking-wines/keep-drinking-wines.component';
+import { ContinueWineItemComponent } from './components/continue-wine-item/continue-wine-item.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { WineItemComponent } from './components/wine-item/wine-item.component';
     NavigationLinksComponent,
     DrinkAgainWinesComponent,
     SecondaryNavigationComponent,
-    WineItemComponent
+    WineItemComponent,
+    KeepDrinkingWinesComponent,
+    ContinueWineItemComponent
   ],
   imports: [
     BrowserModule,
