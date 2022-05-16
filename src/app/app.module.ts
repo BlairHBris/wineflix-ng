@@ -11,6 +11,9 @@ import { WineItemComponent } from './components/wine-item/wine-item.component';
 import { KeepDrinkingWinesComponent } from './components/keep-drinking-wines/keep-drinking-wines.component';
 import { ContinueWineItemComponent } from './components/continue-wine-item/continue-wine-item.component';
 import { ShowScrollerComponent } from './components/show-scroller/show-scroller.component';
+import { InfoButtonComponent } from './components/info-button/info-button.component';
+import { PlayButtonComponent } from './components/play-button/play-button.component';
+import { ControlsComponent } from './components/controls/controls.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { ShowScrollerComponent } from './components/show-scroller/show-scroller.
     WineItemComponent,
     KeepDrinkingWinesComponent,
     ContinueWineItemComponent,
-    ShowScrollerComponent
+    ShowScrollerComponent,
+    InfoButtonComponent,
+    PlayButtonComponent,
+    ControlsComponent
   ],
   imports: [
     BrowserModule,
