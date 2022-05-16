@@ -9,5 +9,4 @@ import {faPlay, faInfoCircle} from '@fortawesome/free-solid-svg-icons';
 export class AppComponent {
   faPlay = faPlay
   faInfoCircle = faInfoCircle
-  title = 'angular-template';
 }

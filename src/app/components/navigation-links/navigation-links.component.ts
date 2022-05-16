@@ -11,5 +11,5 @@ export class NavigationLinksComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  title: string = 'WineFlix';
 }
