@@ -10,6 +10,7 @@ import { SecondaryNavigationComponent } from './components/secondary-navigation/
 import { WineItemComponent } from './components/wine-item/wine-item.component';
 import { KeepDrinkingWinesComponent } from './components/keep-drinking-wines/keep-drinking-wines.component';
 import { ContinueWineItemComponent } from './components/continue-wine-item/continue-wine-item.component';
+import { ShowScrollerComponent } from './components/show-scroller/show-scroller.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ContinueWineItemComponent } from './components/continue-wine-item/conti
     SecondaryNavigationComponent,
     WineItemComponent,
     KeepDrinkingWinesComponent,
-    ContinueWineItemComponent
+    ContinueWineItemComponent,
+    ShowScrollerComponent
   ],
   imports: [
     BrowserModule,
